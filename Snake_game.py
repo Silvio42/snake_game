@@ -1,11 +1,12 @@
 import pygame
 import time
 import random
+"""--teste """
 
 pygame.init()
 
 # Definição das cores
-yellow = (255, 255, 255)
+white = (255, 255, 255)
 black = (0, 0, 0)
 red = (213, 50, 80)
 green = (0, 255, 0)
