@@ -5,7 +5,7 @@ import random
 pygame.init()
 
 # Definição das cores
-white = (255, 255, 255)
+yellow = (255, 255, 255)
 black = (0, 0, 0)
 red = (213, 50, 80)
 green = (0, 255, 0)
@@ -82,7 +82,7 @@ def gameLoop():
         y1 += y1_change
         dis.fill(black)
         pygame.draw.rect(dis, green, [foodx, foody, snake_block, snake_block])
-        pygame.draw.rect(dis, white, [x1, y1, snake_block, snake_block])
+        pygame.draw.rect(dis, yellow, [x1, y1, snake_block, snake_block])
         pygame.display.update()
 
         if x1 == foodx and y1 == foody:
